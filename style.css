@@ -24,7 +24,6 @@
     padding-right: 15px;
 }
 
-
 /* mobile */
 @media only screen and (max-width: 767px) {
     .s-0 {display: none;}
@@ -68,6 +67,7 @@
     position: fixed;
     margin-left: -16px;
     }
+
    .nav-item{
     color: #83818c;
     padding: 0px;
@@ -100,6 +100,11 @@
     .sub-menu li {
         margin-top: -10px;
     }
+
+    .sub-menu li a{
+        text-decoration: none;
+    }
+
     .content {
         margin: 20px 0px;
         background-color: white;

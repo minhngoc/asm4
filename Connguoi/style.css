@@ -78,6 +78,9 @@
     margin: 0px 8px;
     font-weight: bold;
     }
+    .sub-menu li a{
+        text-decoration: none;
+    }
     .nav li:nth-child(1) {
         padding-top: 25px;
     }

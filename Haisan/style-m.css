@@ -87,6 +87,9 @@
      font-size: 25px;
 
      }
+     .sub-menu li a{
+        text-decoration: none;
+    }
      .nav li:nth-child(1) {
          padding-top: 15px;
      }

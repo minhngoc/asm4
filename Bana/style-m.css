@@ -64,6 +64,9 @@
     .welcome {
         padding: 25px 15px 15px 15px;
     }
+    .sub-menu li a{
+        text-decoration: none;
+    }
     
     .nav{
      width: 100%;

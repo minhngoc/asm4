@@ -40,7 +40,7 @@
 
 
 nav li:hover {
-    animation: shake 0.1s; 
+    animation: shake 3s; 
 }
 
 

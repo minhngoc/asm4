@@ -53,7 +53,7 @@
     .m-12 {width: 100%;}
 
     .main {
-        background-image: url('https://wall.vn/wp-content/uploads/2020/04/anh-dep-da-nang-ve-dem.jpg');
+        background-image: url('https://freenice.net/wp-content/uploads/2021/04/hinh-nen-mau-tim-dep-chat.jpg');
     }
     .title {
         font-family: 'Dancing Script', cursive;
@@ -77,7 +77,6 @@
      list-style: none;
      display:flex;
      justify-content: center;
-     position: fixed;
      }
     .nav-item{
      color: #83818c;
@@ -99,6 +98,10 @@
      .nav li:nth-child(4) {
          padding-top: 15px;
      }
+     .menu-wrap {
+        position: sticky;
+        top:0;
+     }
      .menu {
          width: 100%;
          margin: 0 15px;
@@ -113,6 +116,9 @@
          margin-top: -10px;
          padding: 20px 0;
      } 
+     .sub-menu li a{
+        text-decoration: none;
+    }
      
      .content {
          margin: 20px 0px;

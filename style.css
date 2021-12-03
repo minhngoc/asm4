@@ -104,6 +104,10 @@
     .sub-menu li a{
         text-decoration: none;
     }
+    .menu-wrap {
+        position: sticky;
+        top:0;
+     }
 
     .content {
         margin: 20px 0px;

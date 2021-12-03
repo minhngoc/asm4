@@ -104,7 +104,11 @@
     }
     .sub-menu li {
         margin-top: -10px;
-    } 
+    }
+    .menu-wrap {
+        position: sticky;
+        top:0;
+     } 
     
     .content {
         margin: 20px 0px;

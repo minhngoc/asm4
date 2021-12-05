@@ -44,99 +44,90 @@
     
    .main {
        background-image: url('https://freenice.net/wp-content/uploads/2021/04/hinh-nen-mau-tim-dep-chat.jpg');
+       padding-top: 20px;
    }
+
    .title {
-       font-family: 'Dancing Script', cursive;
        color: white;
+       font-family: 'Dancing Script', cursive;
        padding: 0 40px;
-   }
-   .welcome {
-    padding: 25px 15px 15px 20px;
-    text-align: center;
-}
+       text-align: center;
+    }
    
-   .nav{
-    width: 100%;
-    background-color: white;
-    border-radius: 40px;
-    box-shadow: 0 10px 40px rgba(150, 174, 178, 0.8);
-    height: 150px;
-    margin-top: 20px;   
-    list-style: none;
-    display:flex;
-    justify-content: center;
-    position: fixed;
-    margin-left: -16px;
-    }
-   .nav-item{
-    color: #83818c;
-    padding: 0px;
-    text-decoration: none;
-    transition: 0.3s;
-    margin: 0px 8px;
-    font-weight: bold;
-    }
-    .sub-menu li a{
-        text-decoration: none;
-    }
-    .nav li:nth-child(1) {
-        padding-top: 25px;
-    }
-    .nav li:nth-child(2) {
-        padding-top: 25px;
-    }
-    .nav li:nth-child(3) {
-        padding-top: 25px;
-    }
-    .nav li:nth-child(4) {
-        padding-top: 25px;
-    }
-    .menu {
+   .menu{
         width: 100%;
-        margin: 0 15px;
+        height: 100%;
+        background-color: white;
+        border-radius: 40px;
+        box-shadow: 0 10px 40px rgb(150 174 178 / 80%);
+        margin: 20px 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        position: sticky;
+        padding: 10px;
+        top: 0;
+    }
+
+   .menu-item{
+        color: #83818c;
+        text-decoration: none;
+        transition: 0.3s;
+        margin: 0px 20px;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Dancing Script', cursive;
+        color: red;
+
     }
     .sub-menu {
         font-size: 14px;
         text-align: center;
         list-style: none;
+
     }
+
     .sub-menu li {
-        margin-top: -10px;
+        margin: 15px 0;
     }
-    .menu-wrap {
-        position: sticky;
-        top:0;
-     } 
+
+    .sub-menu li a{
+        font-size: 12px;
+        color: green;
+        font-weight: bold;
+        font-style: italic;
+    }
     
-    .content {
+    .content-wrapper {
         margin: 20px 0px;
         background-color: white;
         border-radius: 40px;
         box-shadow: 0 10px 40px rgba(150, 174, 178, 0.8);
-        height: 460px;
         list-style: none;
         width: 100%;
-        height: 100%;
         padding: 15px 15px;
-
     }
    
-    .header {
-        margin-top: 200px;
-        color: white;
-        margin-left: 25px;
+    .content-title {
+        color:red;
     }
-    .banh-cuon {
+    
+    .content-img {
         width: 100%;
         height: 100%;
         object-fit: cover;
         object-position: center center;
     }
-    .img {
-        margin: 20px 0;
+    .content p {
+        margin: 15px 10px;
     }
+    .content h1 {
+        margin-left: 15px;
+    }
+   
     .footer {
         color: white;
+        margin-left: 15px;
     }
     .footer li {
         margin: 20px 0px;
